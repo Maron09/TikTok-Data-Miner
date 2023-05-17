@@ -1,8 +1,10 @@
 # TikTok-Data-Miner
 **TikTok Data Scraper**
+
 The TikTok Data Scraper is a Python script that allows you to extract data from TikTok user profiles. It retrieves information such as video views, likes, comments, shares, music, and other details from the specified TikTok user's profile page.
 
 **Prerequisites**
+
 Python 3.x
 selenium library
 webdriver_manager library
@@ -12,6 +14,7 @@ requests library
 xlsxwriter library
 
 **Setup**
+
 Install the required libraries:
 
 selenium: A library for automating web browsers.
@@ -30,6 +33,7 @@ requests: Import the requests module for making HTTP requests.
 xlsxwriter: Import the xlsxwriter module for creating Excel files.
 
 **Usage**
+
 Initialize the web driver:
 
 Set up the Chrome driver options, such as window size, user agent, and headless mode.
@@ -59,10 +63,12 @@ Close the web driver:
 Use the driver.quit() method to close the web driver and release system resources.
 
 **Limitations**
+
 The script relies on the structure of the TikTok website, so any changes to the HTML structure or class names may break the scraping process.
 The script does not handle exceptions or errors gracefully. Additional error handling and validation should be implemented for a more robust solution.
 
 **Disclaimer**
+
 Please be aware of the legal implications of web scraping. Make sure to review and comply with TikTok's terms of service and respect the privacy of users.
 Use this script responsibly and in accordance with TikTok's terms of service and any applicable laws and regulations.
 
